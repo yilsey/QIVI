@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QIVI
+qgisMinimumVersion=2.0
+description=Plugin para el cálculo del Índice de Valor de Importancia (IVI)
+version=0.1
+author=Karen Huertas - Yilsey Benavides (Universidad Distrital Francisco José de Caldas)
+email=karenahva@gmail.com - yilmiranda@gmail.com
+
+about=Calcula el Índice de Valor de Importancia (IVI) a partir de una capa de entrada que contenga mínimo los atributos Nombre Ceintífico o Nombre Común, Área Basal y Parcela.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
